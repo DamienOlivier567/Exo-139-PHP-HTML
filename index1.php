@@ -15,7 +15,16 @@
      <ul>
        <?php
             // TODO votre code ici
+       function habituelle ($students){
+               foreach ($students as $item){
+                   echo "<p>$item</p>";
+               }
+       }
+       habituelle($students);
        ?>
      </ul>
 
     <!-- Incluez le fichier index2.php ici bas de manière a obtenir la suite du code HTML. -->
+  <?php
+    include "index2.php";
+?>
